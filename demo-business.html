@@ -11,7 +11,9 @@
 	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
 	<link rel="stylesheet" href="style.css" type="text/css" />
 	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/custom-dark.css" type="text/css" />
 	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="css/colors.css" type="text/css" />
 
 	<!-- Business Demo Specific Stylesheet -->
 	<link rel="stylesheet" href="demos/business/business.css" type="text/css" />
@@ -20,13 +22,9 @@
 
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
-	<link rel="stylesheet" href="demos/medical/css/medical-icons.css" type="text/css" />
-	<link rel="stylesheet" href="demos/real-estate/css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
-
 	<link rel="stylesheet" href="one-page/css/et-line.css" type="text/css" />
-
 	<link rel="stylesheet" href="css/custom.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -40,15 +38,16 @@
 
 </head>
 
-<body class="stretched">
+<body class="stretched ">
 
 	<!-- Document Wrapper
 	============================================= -->
 	<div id="wrapper" class="clearfix">
 
 		<!-- Header
+			full-header transparent-header dark header-size-md
 		============================================= -->
-		<header id="header" class="full-header transparent-header dark header-size-md" data-sticky-class="not-dark" data-responsive-class="not-dark" data-sticky-offset="full" data-sticky-offset-negative="80">
+		<header id="header" class=" dark-c  " data-sticky-class="not-dark" data-responsive-class="not-dark" data-sticky-offset="full" data-sticky-offset-negative="80">
 			<div id="header-wrap">
 				<div class="container">
 					<div class="header-row">
@@ -60,15 +59,7 @@
 							<a href="index.html" class="retina-logo" data-dark-logo="demos/business/images/logo-dark@2x.png"><img src="demos/business/images/logo@2x.png" alt="Canvas Logo"></a>
 						</div><!-- #logo end -->
 
-						<div class="header-misc">
-
-							<!-- Top Search
-							============================================= -->
-							<div id="top-search" class="header-misc-icon">
-								<a href="#" id="top-search-trigger"><i class="icon-line-search"></i><i class="icon-line-cross"></i></a>
-							</div><!-- #top-search end -->
-
-						</div>
+					
 
 						<div id="primary-menu-trigger">
 							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
@@ -76,7 +67,7 @@
 
 						<!-- Primary Navigation
 						============================================= -->
-						<nav class="primary-menu not-dark">
+						<nav class="primary-menu style-1 not-dark">
 
 							<ul class="menu-container">
 								<li class="menu-item mega-menu sub-menu">
@@ -262,61 +253,16 @@
 
 		<!-- Slider
 		============================================= -->
-		<section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header" data-loop="true">
-
-			<div class="slider-inner">
-				<div class="swiper-container swiper-parent">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide dark">
-							<div class="container">
-								<div class="slider-caption slider-caption-center">
-									<div>
-										<h2 class="font-primary nott">Creative Work.</h2>
-										<p class="font-weight-light font-primary d-none d-sm-block">Quickly communicate bleeding-edge best practices.</p>
-										<a href="#" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
-									</div>
-								</div>
-							</div>
-							<div class="swiper-slide-bg" style="background-image: url('demos/business/images/slider/1.jpg');"></div>
-						</div>
-						<div class="swiper-slide dark">
-							<div class="container">
-								<div class="slider-caption slider-caption-center">
-									<div>
-										<h2 class="font-primary">Amazing Prospects.</h2>
-										<p class="font-weight-light font-primary d-none d-sm-block">Seamlessly engineer effective synergy after e-business experiences.</p>
-										<a href="#" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
-									</div>
-								</div>
-							</div>
-							<div class="swiper-slide-bg" style="background-image: url('demos/business/images/slider/2.jpg');"></div>
-						</div>
-						<div class="swiper-slide dark">
-							<div class="container">
-								<div class="slider-caption slider-caption-center">
-									<div>
-										<h2 class="font-primary">Flexible Works.</h2>
-										<p class="font-weight-light font-primary d-none d-sm-block">Completely incubate worldwide users before imperatives.</p>
-										<a href="#" class="button button-rounded button-large nott ls0 font-primary">Get Started</a>
-									</div>
-								</div>
-							</div>
-							<div class="swiper-slide-bg" style="background-image: url('demos/business/images/slider/3.jpg');"></div>
-						</div>
-					</div>
-					<!-- Slider Arrows
-					============================================= -->
-					<div class="slider-arrow-left" class="bg-transparent"><i class="icon-line-arrow-left"></i></div>
-					<div class="slider-arrow-right" class="bg-transparent"><i class="icon-line-arrow-right"></i></div>
-				</div>
-
-				<!-- Slider Mouse Icon
-				============================================= -->
-				<a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><img class="infinite animated fadeInDown" src="demos/business/images/mouse.svg" alt="Image" ></a>
+		<section id="page-title" class="page-title-parallax page-title-dark" style="background-image: url('png/tax-background.png');"
+		data-stellar-background-ratio="0.3">
+		
+			<div class="container clearfix">
+				<h1>Page Title Parallax</h1>
+				<span>A Short Page Title Tagline</span>
+				
 			</div>
-
+		
 		</section>
-
 		<!-- Content
 		============================================= -->
 		<section id="content">
